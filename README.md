@@ -6,8 +6,8 @@ forth-ans
 Coverage for these additional CORE EXT words is in `coreext-fills.fth`:
 
     <>            done
-    0<>
-    0>
+    0<>           done
+    0>            done
     2>R
     2R>
     2R@
