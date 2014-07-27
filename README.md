@@ -19,7 +19,7 @@ Coverage for these additional CORE EXT words is in `coreext-fills.fth`:
     CONVERT
     ERASE
     EXPECT
-    HEX
+    HEX           done
     MARKER        done
     NIP           done
     PAD
@@ -36,7 +36,7 @@ Coverage for these additional CORE EXT words is in `coreext-fills.fth`:
     U>            done
     UNUSED        done
     U.R
-    WITHIN
+    WITHIN        done
 
 The following tests were in CORE but are now covered in CORE EXT:
 
