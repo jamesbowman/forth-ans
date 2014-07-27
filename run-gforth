@@ -1,0 +1,2 @@
+cd anstests &&
+gforth ../standard.fs runtests.fth
