@@ -19,17 +19,17 @@ Coverage for these additional CORE EXT words is in `coreext-fills.fth`:
     MARKER        done
     NIP           done
     PAD
-    PICK
+    PICK          done
     QUERY
     .R
     REFILL
-    ROLL
+    ROLL          done
     SOURCE-ID
     SPAN
     TIB
     #TIB
-    TUCK
+    TUCK          done
     U>
-    UNUSED
+    UNUSED        done
     U.R
     WITHIN
