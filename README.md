@@ -11,7 +11,7 @@ Coverage for these additional CORE EXT words is in `coreext-fills.fth`:
     2>R
     2R>
     2R@
-    AGAIN
+    AGAIN         done
     CONVERT
     ERASE
     EXPECT

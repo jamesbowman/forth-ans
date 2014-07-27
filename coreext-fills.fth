@@ -51,6 +51,11 @@ TESTING UNUSED
 T{ UNUSED DROP -> }T
 
 \ ------------------------------------------------------------------------
+TESTING AGAIN
+T{ : ag0 100 BEGIN DUP 7 MOD 0= IF EXIT THEN 1+ AGAIN ; -> }T
+T{ ag0 -> 103 }T
+
+\ ------------------------------------------------------------------------
 TESTING MARKER
 
 T{ : ma? BL WORD FIND NIP 0<> ; -> }T
@@ -63,4 +68,5 @@ T{ ma1 ma2 ma1 -> 222 111 }T
 T{ ma? ma0 ma? ma1 ma? ma2 -> <TRUE> <TRUE> <FALSE> }T
 T{ ma0 -> }T
 T{ ma? ma0 ma? ma1 ma? ma2 -> <FALSE> <FALSE> <FALSE> }T
+
 bye
