@@ -1,6 +1,9 @@
 forth-ans
 =========
 
+This is a collection of new tests for the [ANS Forth Test Programs](http://soton.mpeforth.com/flag/anstests/).
+
+The new CORE EXT tests are in `coreext-fills.fth`.
 `anstests` is a pristine snapshot of anstests0.9
 
 To run the new tests from the command line under `gforth`, do:
@@ -15,7 +18,7 @@ And to run with VFX Forth:
 
     vfxlin 'include anstests/tester.fr include anstests/core.fr include coreext-fills.fth'
 
-Coverage for these additional CORE EXT words is in `coreext-fills.fth`:
+This is a list of EXT CORE words not already covered, `done' means the word is tested by `coreext-fills.fth`:
 
     <>            done
     0<>           done
