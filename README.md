@@ -29,7 +29,12 @@ Coverage for these additional CORE EXT words is in `coreext-fills.fth`:
     TIB
     #TIB
     TUCK          done
-    U>
+    U>            done
     UNUSED        done
     U.R
     WITHIN
+
+The following tests were in CORE but are now covered in CORE EXT:
+
+    HEX
+
