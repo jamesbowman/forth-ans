@@ -3,6 +3,10 @@ forth-ans
 
 `anstests` is a pristine snapshot of anstests0.9
 
+To run the new tests from the command line under `gforth`, do:
+
+    gforth anstests/tester.fr anstests/core.fr coreext-fills.fth
+
 Coverage for these additional CORE EXT words is in `coreext-fills.fth`:
 
     <>            done
