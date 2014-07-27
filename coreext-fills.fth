@@ -218,8 +218,8 @@ T{ UNUSED DROP -> }T
 
 \ ------------------------------------------------------------------------
 TESTING AGAIN
-T{ : ag0 100 BEGIN DUP 7 MOD 0= IF EXIT THEN 1+ AGAIN ; -> }T
-T{ ag0 -> 103 }T
+T{ : ag0 701 BEGIN DUP 7 MOD 0= IF EXIT THEN 1+ AGAIN ; -> }T
+T{ ag0 -> 707 }T
 
 \ ------------------------------------------------------------------------
 TESTING MARKER
