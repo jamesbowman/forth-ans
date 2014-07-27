@@ -7,6 +7,14 @@ To run the new tests from the command line under `gforth`, do:
 
     gforth anstests/tester.fr anstests/core.fr coreext-fills.fth
 
+To run with gforth with a strict set of only [standard words](http://excamera.com/sphinx/article-standard.html):
+
+    gforth standard.fs anstests/tester.fr anstests/core.fr coreext-fills.fth
+
+And to run with VFX Forth:
+
+    vfxlin 'include anstests/tester.fr include anstests/core.fr include coreext-fills.fth'
+
 Coverage for these additional CORE EXT words is in `coreext-fills.fth`:
 
     <>            done
